@@ -1,0 +1,7 @@
+{
+    "etudiants": [
+        { "id": 1, "nom": "John Doe" },
+        { "id": 2, "nom": "Jane Smith" },
+        { "id": 3, "nom": "Bob Johnson" }
+    ]
+}

@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">flag</th>
+            <th scope="col">name</th>
+            <th scope="col">population</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let count of this.data">
+            <td>
+                <img src={{count.flags.png}} width="60px" heigth="60px" style="margin-right:20px"></td>
+            <td>{{count.name.common}}</td>
+
+            <td>{{count.population}}</td>
+        </tr>
+    </tbody>
+</table>
